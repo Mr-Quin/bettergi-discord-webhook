@@ -1,0 +1,17 @@
+dist
+out
+build
+node_modules
+
+*.log*
+logs
+
+
+*.env*
+!.env.example
+
+.DS_Store
+
+*.tar
+
+cache

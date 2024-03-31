@@ -1,0 +1,10 @@
+version: '3'
+services:
+  bettergi-webhook-discord:
+    build: .
+    image: bettergi-webhook-discord
+    container_name: bettergi-webhook-discord
+    ports:
+      - 3080:3080
+    env_file:
+      - .env

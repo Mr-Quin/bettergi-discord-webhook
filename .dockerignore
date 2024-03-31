@@ -1,0 +1,13 @@
+dist
+out
+build
+node_modules
+
+*.log*
+logs
+
+*.env*
+
+*.tar
+
+cache
